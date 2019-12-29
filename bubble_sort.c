@@ -18,3 +18,22 @@ void BubbleSort(int a[],int n)
     }
 
 }
+
+
+int main()
+{
+    int n,i, a[n];
+    printf("\nEnter the no of elements: ");
+    scanf("\n%d",&n);
+    for(i=0;i<n;i++)
+    {
+        printf("\nEnter elements: ");
+        scanf("%d",&a[i]);
+    }
+    printf("\nSorted Elements: ");
+    for(i=0;i<n;i++)
+    {
+        printf("\n%d",a[i]);
+    }
+    printf("\n");
+}
