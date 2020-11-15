@@ -1,9 +1,11 @@
-/* Author: Chaitaly Kundu
-Date: 15th nov,2020 */
+// Author: Chaitaly Kundu
+// Date: 16th nov,2020
 
-// Implementing bubble sort algorithm in a C program using only one function (main)
+// Implement bubble sort algorithm in a C++ program using only one function (main)
 
-#include<stdio.h>
+#include<iostream>
+
+using namespace std;
 
 // main function
 int main()
@@ -11,14 +13,14 @@ int main()
     int a[10],n,e,i,j,temp,flag;
 
     // take input for no of element
-    printf("Enter the no of element: ");
-    scanf("%d",&n);
+    cout << "Enter the no of element: " ;       // cout is to display anything. It's like printf
+    cin >> n ;      // cin is used to take input. It works like scanf
 
     // Take input for Elements
-    printf("Elements are: ");
+    cout << "Elements are: " ;
     for(e=0;e<n;e++)
     {
-        scanf("%d",&a[e]);
+        cin >> a[e] ;
     }
 
     // logic of bubble sort algorithm (ascending order)
@@ -40,10 +42,9 @@ int main()
     }
 
     // print sorted array
-    printf("\nSorted array is: ");
+    cout << "Sorted array: " ;
     for(e=0;e<n;e++)
     {
-        printf("\t%d",a[e]);
+        cout << "\t" << a[e] ;
     }
-    return 0;
 }
