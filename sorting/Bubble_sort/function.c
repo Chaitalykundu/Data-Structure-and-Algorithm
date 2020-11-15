@@ -5,8 +5,9 @@ Date: 15th nov,2020 */
 
 #include<stdio.h>
 
-int bubble_sort(int [],int );
+int bubble_sort(int [],int ); // bubble_sort function declaration
 
+// bubble_sort function definition
 int bubble_sort(int a[],int n)
 {
     int i,j,temp,flag;
@@ -27,13 +28,17 @@ int bubble_sort(int a[],int n)
         break;
     }
 }
+
 // main function
 int main()
 {
     int n,e, arr[10];
+
+    // take input for no of element
     printf("Enter no of elements: ");
     scanf("%d",&n);
 
+    // Take input for Elements
     printf("Elements are: ");
     for(e=0;e<n;e++)
     {
@@ -41,6 +46,7 @@ int main()
     }
     bubble_sort(arr,n);
 
+    // print sorted array
     printf("Sorted Array: ");
     for(e=0;e<n;e++)
     {

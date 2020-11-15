@@ -10,11 +10,11 @@ int main()
 {
     int a[10],n,e,i,j,temp,flag;
 
-    // no of element
+    // take input for no of element
     printf("Enter the no of element: ");
     scanf("%d",&n);
 
-    // Take input Elements
+    // Take input for Elements
     printf("Elements are: ");
     for(e=0;e<n;e++)
     {
