@@ -16,8 +16,8 @@ int main()
     {
         if(s==a[i])
         {
-            c++;
             printf("The element is found in %d position ",i);
+            c++;
         }
     }
     if(c==0)
