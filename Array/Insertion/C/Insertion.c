@@ -2,7 +2,7 @@
    Date: 23-03-2021 */
 
 /* Insert an element */
-#include <stdio.h>
+#include<stdio.h>
 
 int main(void) {
 	// your code goes here
