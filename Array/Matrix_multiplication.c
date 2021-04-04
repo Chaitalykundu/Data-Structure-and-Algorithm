@@ -37,7 +37,7 @@ int main()
 
 
     // print the elements of a[m][n], b[m][n] , c[m][n]
-    printf("\n\ta[m][n] \t\t\t\tb[m][n]\n");
+    printf("\n\ta[%d][%d] \t\t\t\tb[%d][%d]\n",m,n,m,n);
 
 
     for(i=0;i<m;i++)
