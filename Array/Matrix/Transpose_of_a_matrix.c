@@ -37,15 +37,6 @@ int main()
         }
     }
 
-    // Transpose
-
-   /* for(i=0;i<n;i++)
-    {
-        for(j=0;j<m;j++)
-        {
-            b[i][j]=a[j][i];
-        }
-    }  */
 
     // print transposed matrix
 
