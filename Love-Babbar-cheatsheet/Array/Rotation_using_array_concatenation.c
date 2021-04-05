@@ -6,19 +6,14 @@
     Output: 3,4,5,1,2 */
 #include<stdio.h>
 
-
 int rotate(int a[], int n)
 {
-    int i,j,temp;
-    for(i=0;i<2;i++)
+    int i,temp[5],d=2;
+    for(i=0;i<d;i++)
     {
-        temp=a[0];
-        for(j=0;j<n-1;j++)
-        {
-            a[j] = a[j+1];
-        }
-        a[n-1]=temp;
+        temp[i]=a[i];
     }
+
 }
 
 int printArray(int a[], int n)
@@ -33,10 +28,9 @@ int printArray(int a[], int n)
 int main()
 {
     int n,i;
-
+    int a[10];
     printf("Enter the no of elements: ");
     scanf("%d",&n);
-    int a[n];
     printf("\nEnter the elements: ");
     for(i=0;i<n;i++)
     {
@@ -44,16 +38,9 @@ int main()
     }
     printf("\nArray Elements are\t: ");
     printArray(a,n);
-
     rotate(a,n);
     printf("\nAfter rotating\t\t: ");
     printArray(a,n);
 
     return 0;
 }
-
-
-/* Time Complexity = O(n*d)  n = no of elements
-                             d = no of elements to be rotated
-
-    Space Complexity =  O(1) */
