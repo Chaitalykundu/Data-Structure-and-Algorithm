@@ -11,21 +11,10 @@
 struct node{
     int data;
     struct node *next;
-}*head;
-
-void Traversal(){
-    struct node *temp;
-    temp=head;
-    while(temp!=NULL)
-    {
-        printf("\nElement is %d and Address of next node is %d\t",temp->data,temp->next);
-
-        temp = temp -> next;
-    }
-}
+};
 
 int main(){
-    struct node *newnode, *temp;
+    struct node *head, *newnode, *temp;
     int n, i=0;
     head=0; //initialize head
     printf("Enter no of nodes to be created: ");
@@ -52,7 +41,14 @@ int main(){
         i++;
     }
 
-    Traversal();
+
+    temp=head;
+    while(temp!=NULL)
+    {
+        printf("\nElement is %d and Address of next node is %d\t",temp->data,temp->next);
+
+        temp = temp -> next;
+    }
 
     return 0;
 }
