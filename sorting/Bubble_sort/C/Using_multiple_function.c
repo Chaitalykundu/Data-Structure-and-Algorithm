@@ -49,18 +49,28 @@ int print_elements(int c[], int n)
 
 int main()
 {
-    int c[10], n, e;
-    printf("Enter the no of elements: ");
+    /* int a[] = {64, 34, 25, 12, 22, 11, 90};
+    int n = sizeof(a)/sizeof(a[0]); */
+    
+    int n,i;
+    printf("\nEnter the no of elements: ");
     scanf("%d",&n);
-    printf("Elements are: ");
-    for(e=0;e<n;e++)
+    
+    int a[n];
+    
+    printf("\nElements are: ");
+    for(i=0;i<n;i++)
     {
-        scanf("%d",&c[e]);
+        scanf("%d",&a[i]);
     }
-    printf("\nArray before sorted: ");
-    print_elements(c,n);
-
-    printf("\nArray after sorted: ");
-    bubble_sort(c,n);
-    print_elements(c,n);
-}
+    
+    printf("\nBefore Sorting: ");
+    printArray(a,n);
+    
+    BubbleSort(a,n);
+    
+    printf("\nAfter Sorting: ");
+    printArray(a,n);
+    
+    return 0;
+    
