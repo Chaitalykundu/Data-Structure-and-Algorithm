@@ -60,7 +60,8 @@ int main()
     printf("\nArray before sorted: ");
     print_elements(c,n);
 
-    printf("\nArray after sorted: ");
     bubble_sort(c,n);
+    
+    printf("\nArray after sorted: ");
     print_elements(c,n);
 }
