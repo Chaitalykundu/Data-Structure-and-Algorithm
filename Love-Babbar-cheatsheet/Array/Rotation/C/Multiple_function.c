@@ -7,21 +7,27 @@
 #include<stdio.h>
 
 
-int rotate(int a[], int n)
-{
-    int i,j,temp;
-    for(i=0;i<2;i++)
+ void ArrayRotatebyOne(int a[], int n){
+    int i, temp =a[0];
+
+    for(i=0;i<n-1;i++)
     {
-        temp=a[0];
-        for(j=0;j<n-1;j++)
-        {
-            a[j] = a[j+1];
-        }
-        a[n-1]=temp;
+        a[i]=a[i+1];
+    }
+    a[n-1]=temp;
+}
+
+void ArrayRotate(int a[], int n, int d)
+{
+    int i;
+
+    for(i=0;i<d;i++)
+    {
+        ArrayRotatebyOne(a,n);
     }
 }
 
-int printArray(int a[], int n)
+void printArray(int a[], int n)
 {
     int i;
     for(i=0;i<n;i++)
@@ -36,7 +42,9 @@ int main()
 
     printf("Enter the no of elements: ");
     scanf("%d",&n);
+
     int a[n];
+
     printf("\nEnter the elements: ");
     for(i=0;i<n;i++)
     {
@@ -45,13 +53,13 @@ int main()
     printf("\nArray Elements are\t: ");
     printArray(a,n);
 
-    rotate(a,n);
+    ArrayRotate(a,n,3);
+
     printf("\nAfter rotating\t\t: ");
     printArray(a,n);
 
     return 0;
 }
-
 
 /* Time Complexity = O(n*d)  n = no of elements
                              d = no of elements to be rotated
