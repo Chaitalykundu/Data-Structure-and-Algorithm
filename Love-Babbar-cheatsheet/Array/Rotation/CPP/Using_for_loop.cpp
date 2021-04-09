@@ -1,35 +1,29 @@
-/* Author: Chaitaly Kundu
-Date: 09-04-2021 */
+/* Author : Chaitaly Kundu
+   Date: 09-04-2021 */
 
-// Write a program to rotate an array (d elements) using reverse process
 
+            // INCOMPLETE
+
+
+/* WAP to reverse an array using for loop */
 
 #include<iostream>
+
 using namespace std;
 
-void reverse( int a[], int start, int end)
+void reverse(int a[], int start, int end)
 {
-    int temp;
-
-    while(start<end)
+    int i,temp;
+    for(i=start;i<end;)
     {
         temp=a[start];
         a[start]=a[end];
         a[end]=temp;
-        start++;
+        i++;
         end--;
     }
 }
 
-void RotateArray(int a[], int d, int n)
-{
-    reverse(a,0,d-1);
-    reverse(a,d,n-1);
-    reverse(a,0,n-1);
-}
-
-
-// Print Array
 void PrintArray(int a[], int n){
     int i;
 
@@ -39,8 +33,6 @@ void PrintArray(int a[], int n){
     }
     cout << endl;
 }
-
-
 
 int main(){
     int n,i;
@@ -55,15 +47,16 @@ int main(){
         cin >> a[i];
     }
 
-    cout << "\nArray Before Rotate: ";
+    cout << "\nArray Before Reverse: ";
     PrintArray(a,n);
 
-    RotateArray(a,4,n);
+    reverse(a,0,n-1);
 
-    cout << "\nArray After Rotate: ";
+    cout << "\nArray After Reverse: ";
     PrintArray(a,n);
     return 0;
 }
+
 
 /* Time Complexity = O(n)  n = no of elements
 
