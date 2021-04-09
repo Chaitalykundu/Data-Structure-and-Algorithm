@@ -52,3 +52,8 @@ int main(){
     PrintArray(a,n);
     return 0;
 }
+
+
+/* Time Complexity = O(n)  n = no of elements
+
+    Space Complexity =  O(1) */

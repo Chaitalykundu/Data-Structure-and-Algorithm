@@ -44,3 +44,7 @@ int main()
 
     return 0;
 }
+
+/* Time Complexity = O(n)  n = no of elements
+
+    Space Complexity =  O(1) */
