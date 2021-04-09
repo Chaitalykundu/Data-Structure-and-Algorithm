@@ -1,5 +1,5 @@
 /* Author: Chaitaly Kundu
-Date: 08-04-2021 */
+Date: 09-04-2021 */
 
 // Write a program to rotate an array (d elements) using reverse process
 
@@ -64,3 +64,7 @@ int main(){
     PrintArray(a,n);
     return 0;
 }
+
+/* Time Complexity = O(n)  n = no of elements
+
+    Space Complexity =  O(1) */
