@@ -1,12 +1,16 @@
+/* Author: Chaitaly Kundu
+Date: 08-04-2021 */
+
+
 #include <iostream>
 using namespace std;
 
-int bubble_sort(int [],int ); // bubble_sort function declaration
-int swap(int [], int);
-int print_elements(int [], int);
+void bubble_sort(int [],int ); // bubble_sort function declaration
+void swap(int [], int);
+void print_elements(int [], int);
 
 
-int swap(int a[], int j)
+void swap(int a[], int j)
 {
     int temp;
     temp=a[j];
@@ -14,7 +18,7 @@ int swap(int a[], int j)
     a[j+1]=temp;
 }
 
-int bubble_sort(int b[], int n)
+void bubble_sort(int b[], int n)
 {
     int i,j,flag;
     for(i=0;i<n-1;i++)
@@ -34,7 +38,7 @@ int bubble_sort(int b[], int n)
 }
 
 
-int print_elements(int c[], int n)
+void print_elements(int c[], int n)
 {
     int e;
     for(e=0;e<n;e++)
@@ -49,20 +53,20 @@ int main() {
 	 int n,i;
     cout << "Enter the no of elements: " << endl;
     cin >> n;
-    
+
     int a[n];
-    
+
     cout << "Elements are: " << endl;
     for(i=0;i<n;i++)
     {
         cin >> a[i];
     }
-    
+
     cout << "Before Sorting: ";
     print_elements(a,n);
-    
+
     bubble_sort(a,n);
-    
+
     cout << "After Sorting: ";
     print_elements(a,n);
 	return 0;
