@@ -6,9 +6,23 @@ Date: 21st May, 2021 */
 
 int LinearSearch(int a[], int n, int s)
 {
-    int i;
+    int first=0, last=n-1;
 
-    if(i==a[i])
+    while(first<last)
+    {
+        if(s == a[first])
+        {   return first;
+            break;
+        }
+        if(s == a[last])
+        {
+            return last;
+            break;
+        }
+        first++;
+        last--;
+    }
+    return -1;
 }
 
 int main()
@@ -24,3 +38,6 @@ int main()
     printf(" %d is in index %d", s, result);
     return 0;
 }
+
+/* if element Found at last  O(n) to O(1)
+if element Not found O(n) to O(n/2) */
