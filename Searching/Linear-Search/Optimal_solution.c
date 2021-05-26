@@ -11,7 +11,8 @@ int LinearSearch(int a[], int n, int s)
     while(first<last)
     {
         if(s == a[first])
-        {   return first;
+        {
+            return first;
             break;
         }
         if(s == a[last])
@@ -35,7 +36,10 @@ int main()
     scanf("%d",&s);
 
     result = LinearSearch(a,n,s);
-    printf(" %d is in index %d", s, result);
+    if(result !=-1)
+        printf(" %d is in index %d", s, result);
+    else
+        printf("Element not found");
     return 0;
 }
 

@@ -30,3 +30,6 @@ int main()
     printf(" %d is in index %d", s, result);
     return 0;
 }
+
+/* if element Found at last  O(n) to O(1)
+if element Not found O(n) to O(n/2) */
