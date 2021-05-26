@@ -14,6 +14,7 @@ int BinarySearch(int a[], int n, int data)
         if(data == a[mid])
         {
             return mid;
+            break;
         }
         else if( data > a[mid])
         {
