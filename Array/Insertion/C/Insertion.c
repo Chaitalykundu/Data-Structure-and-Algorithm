@@ -2,11 +2,13 @@
    Date: 23-03-2021 */
 
 /* Insert an element */
+
 #include<stdio.h>
+
 
 int main(void) {
 	// your code goes here
-	int a[10], size, i, k, pos, capacity;
+	int a[10], size, i, k, pos;
 
 	// Print the size of the array
 	printf("Enter the size of the array: ");
@@ -27,7 +29,7 @@ int main(void) {
 	printf("Enter the position where the element to be inserted: ");
     scanf("\n%d",&pos);
 
-    capacity=sizeof(a)/sizeof(a[0]);
+    int capacity=sizeof(a)/sizeof(a[0]);
     if(size>=capacity)
     {
         printf("Position is out of bound");
@@ -42,7 +44,7 @@ int main(void) {
     }
 	// Print elements after insertion
 	printf("\nElements are: \n\n");
-	for(i=0;i<size;i++)
+	for(i=0;i<=size;i++)
 	{
 	    printf("%d\t",a[i]);
 	}
