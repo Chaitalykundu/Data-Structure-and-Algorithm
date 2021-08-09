@@ -1,8 +1,6 @@
 /* Author : Chaitaly Kundu
    Date : 08-08-2021*/
 
-// It concatenate 2 string. The 1st string will be changed totally. But 2nd one will remain same
-
 #include<iostream>
 #include<string>
 using namespace std;
