@@ -8,11 +8,13 @@ using namespace std;
 
 int main(){
 
-    string s1 = "abcde", s2 = "wxyz";
+    string s1 = "abc", s2 = "abc";
 
-    if(s1.compare(s2))
+    if(!(s2.compare(s1)))  // s2 is compared with s1
         cout << "Strings are equal" << endl;
-    cout << s1.compare(s2) << endl;
+    else
+        cout << "Strings are not equal" << endl;
+    cout << s2.compare(s1) << endl;
 
     return 0;
 }
