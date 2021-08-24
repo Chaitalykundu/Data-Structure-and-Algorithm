@@ -7,9 +7,12 @@ using namespace std;
 
 int main(){
 
-    string str1 = "Chaitaly is a programmer";
-    cout << str1[5] << endl;   // O/P: a
-    cout << str1[15] << endl;   // O/P: r
+    string s = "123456";
+    cout << sizeof(s) << endl;
+
+    int n = stoi(s);
+    cout << n << endl;
+    cout << sizeof(n) << endl;
 
     return 0;
 }

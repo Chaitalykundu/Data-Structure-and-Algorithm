@@ -7,9 +7,8 @@ using namespace std;
 
 int main(){
 
-    string str1 = "Chaitaly is a programmer";
-    cout << str1[5] << endl;   // O/P: a
-    cout << str1[15] << endl;   // O/P: r
-
+    string s = "Chaity";
+    cout << s.insert(5, "al") << endl;
+    cout << s.insert(8," Kundu") << endl;
     return 0;
 }

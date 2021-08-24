@@ -7,9 +7,10 @@ using namespace std;
 
 int main(){
 
-    string str1 = "Chaitaly is a programmer";
-    cout << str1[5] << endl;   // O/P: a
-    cout << str1[15] << endl;   // O/P: r
+    string s = "Chaitaly";
 
+    cout << s.length() << endl;
+        // or
+    cout << s.size() << endl;
     return 0;
 }

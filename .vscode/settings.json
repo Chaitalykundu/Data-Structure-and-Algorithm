@@ -1,5 +1,8 @@
 {
     "files.associations": {
         "string": "c"
-    }
+    },
+    "cSpell.words": [
+        "stoi"
+    ]
 }

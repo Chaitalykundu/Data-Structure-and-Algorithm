@@ -7,9 +7,9 @@ using namespace std;
 
 int main(){
 
-    string str1 = "Chaitaly is a programmer";
-    cout << str1[5] << endl;   // O/P: a
-    cout << str1[15] << endl;   // O/P: r
+    string s = "Chaitaly Kundu";
 
+    for(int i=0;i<s.length();i++)
+        cout << s[i] << endl;
     return 0;
 }
