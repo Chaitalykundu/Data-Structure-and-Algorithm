@@ -15,7 +15,7 @@ public:
             for(int j=i;j<n;j++)
             {
                 current_sum +=a[j];
-                cout << current_sum << endl;
+                cout << "sum of subarray from index " << i << " to index " << j << " is " << current_sum << endl;
             }
         }
     }
