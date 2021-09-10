@@ -19,12 +19,12 @@ public:
 
 int main(){
 
-    int n = 5;
-    
+    int n = 6;
+
     Factorial obj;
 
     int factorial_of_n = obj.fact(n);
     cout << factorial_of_n << endl;
-    
+
     return 0;
 }
