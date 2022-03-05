@@ -1,7 +1,8 @@
 {
     "files.associations": {
         "string": "c",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "vector": "cpp"
     },
     "cSpell.words": [
         "stoi"
