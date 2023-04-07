@@ -1,8 +1,8 @@
 /* Author : Chaitaly Kundu
    Date : 10-09-2021*/
 
-#include<iostream>
-#include<algorithm>
+#include <iostream>
+#include <algorithm>
 using namespace std;
 
 class print_number_descending_order
@@ -10,15 +10,15 @@ class print_number_descending_order
 public:
     int print_numbers(int n)
     {
-        if(n==0)
+        if (n == 0)
             return 0;
         cout << n << " ";
-        return print_numbers(n-1);
+        return print_numbers(n - 1);
     }
 };
 
-
-int main(){
+int main()
+{
 
     int n = 10;
 
