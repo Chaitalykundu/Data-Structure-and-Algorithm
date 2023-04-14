@@ -1,6 +1,8 @@
-- A Heap is a special Tree-based data structure in which the tree is a **_complete binary tree_**.
+- A HEAP is a special Tree-based data structure in which the tree is a **_complete binary tree_**.
 
-* A complete binary tree is a binary tree in which all the levels are completely filled except possibly the lowest one, which is filled from the left.
+* **A COMPLETE BINARY TREE** is a binary tree in which all the levels are completely filled except possibly the lowest one, which is filled from the left.
+
+* In a complete binary tree, if there are n nodes, then height of the tree = log(n)
 
 &nbsp;
 
@@ -143,3 +145,46 @@ After heapify operation final heap will be look like this
 - This operation returns and deletes the maximum element and minimum element from the max-heap and min-heap respectively. In short, it deletes the root element of the heap binary tree.
 
 &nbsp;
+
+# Find parent, left child and right child
+
+Suppose we are given an array, arr[] representing the complete binary tree / heap. We have to find parent, left child and right child
+
+- parent(i) = |i-1|/2
+
+* left child = 2\*i +1
+* right child = 2\*i + 2
+
+&nbsp;
+
+# Applications of Heap Data Structure:
+
+- **_Priority Queues:_**
+
+  - Priority queues can be efficiently implemented using Binary Heap because it supports insert(), delete() and extractmax(), decreaseKey() operations in O(log N) time.
+
+- **_Binomial Heap and Fibonacci Heap:_**
+
+  - Binomial Heap and Fibonacci Heap are variations of Binary Heap. These variations perform union also in O(log N) time which is an O(N) operation in Binary Heap.
+
+- **_Order statistics:_**
+
+  - The Heap data structure can be used to efficiently find the kth smallest (or largest) element in an array.
+
+&nbsp;
+
+# Advantages of Heaps:
+
+- Fast access to maximum/minimum element (O(1))
+- Efficient Insertion and Deletion operations (O(log n))
+- Flexible size
+- Can be efficiently implemented as an array
+- Suitable for real-time applications
+
+&nbsp;
+
+# Disadvantages of Heaps:
+
+- Not suitable for searching for an element other than maximum/minimum (O(n) in worst case)
+- Extra memory overhead to maintain heap structure
+- Slower than other data structures like arrays and linked lists for non-priority queue operations.
