@@ -1,1 +1,6 @@
-When a function calls itself, this is called recursion
+# important topics
+
+| Topics              | Status |
+| ------------------- | ------ |
+| Basics of recursion |
+| Recursion problems  |
