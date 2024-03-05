@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "c:/Users/chaitaly_kundu/Desktop/Data-Structure-and-Algorithm/Patterns/01-Half-Pyramid",
+      "program": "c:/Users/chaitaly_kundu/Desktop/Data-Structure-and-Algorithm/Patterns/01-Half-Pyramid/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
