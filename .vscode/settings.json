@@ -60,6 +60,8 @@
     "stdio.h": "c",
     "iostream": "cpp",
     "sstream": "cpp",
-    "regex": "cpp"
+    "regex": "cpp",
+    "complex": "cpp",
+    "cmath": "cpp"
   }
 }

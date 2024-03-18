@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/chaitaly_kundu/Desktop/Data-Structure-and-Algorithm/Patterns/01-Half-Pyramid",
-      "program": "c:/Users/chaitaly_kundu/Desktop/Data-Structure-and-Algorithm/Patterns/01-Half-Pyramid/build/Debug/outDebug",
+      "cwd": "c:/Users/chaitaly_kundu/Desktop/Data-Structure-and-Algorithm/GeeksForGeeks/Number",
+      "program": "c:/Users/chaitaly_kundu/Desktop/Data-Structure-and-Algorithm/GeeksForGeeks/Number/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
