@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/chaitaly_kundu/Desktop/Data-Structure-and-Algorithm/02-Basic-Maths-for-DSA/GFG/Number-of-factors",
-      "program": "c:/Users/chaitaly_kundu/Desktop/Data-Structure-and-Algorithm/02-Basic-Maths-for-DSA/GFG/Number-of-factors/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

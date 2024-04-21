@@ -6,10 +6,14 @@ Problem name : Print Prime factor(s) of a number
 Level : Basic
 
 
+Problem link : https://www.geeksforgeeks.org/problems/prime-factors5052/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
+
 Purpose : Crack Amazon interview
 */
 
-// T.C = O(n) Optimized
+// T.C = O(n)
+
+// not correct
 
 #include <iostream>
 #include <cmath>

@@ -1,3 +1,5 @@
+Theory source : <https://www.geeksforgeeks.org/c-arrays/>
+
 # Array topics
 
 | Topic                    | Status |

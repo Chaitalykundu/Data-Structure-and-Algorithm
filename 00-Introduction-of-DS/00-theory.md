@@ -1,3 +1,5 @@
+# Overview
+
 - Datas are simply values or set of values
 
 - A **data item** refers to a single unit of values
@@ -10,19 +12,23 @@
 
 &nbsp;
 
-# Definition of DS
+# Definition of Data Structure
 
-Data Structure is a branch of computer science which allows to understand the **organization of data** and the** management of the data flow** to increase any program's efficiency.
+**Data structure is a particular way of organizing data in a computer so that it can be used effectively.**
 
-&nbsp;
+The idea is to reduce the space and time complexities of different tasks.
 
-A data structure is not only used for organizing the data. It is also used for processing, retrieving, and storing dataA data structure is not only used for organizing the data. It is also used for **processing**, **retrieving**, and **storing** data.
-
-&nbsp;
+It allows to understand the **organization of data** and the **management of the data flow** to increase any program's efficiency.
 
 &nbsp;
 
-# Need Of Data structure:
+A data structure is not only used for organizing the data. It is also used for **processing**, **retrieving**, and **storing** data.
+
+&nbsp;
+
+&nbsp;
+
+# Need Of Data structure
 
 - Data structure modification is easy.
 - It requires less time.
@@ -38,41 +44,34 @@ A data structure is not only used for organizing the data. It is also used for p
 
 The Data Structure can be classified into **two** categories:
 
-<img src="../assets/introduction-theory-01.jpg" style="width:250px">
+- Primitive Data Structure
+- Non-Primitive Data Structure
+  - Linear Data Structure
+  - Non-Linear Data Structure
 
 &nbsp;
 
-## Primitive Data Structure
+# Primitive Data Structure
 
-These are the fundamental data structures that can be operated directly on data and machine instructions.
+Primitive Data Structure contains fundamental data types such as integer, float, character, pointer, and these fundamental data types can hold a single type of value.
 
-These data structures are defined by programming language or we can say it is built-in. The notations of these data structures vary from machine to machine.
-
-&nbsp;
-
-Examples of primitive data structure:
-
-- Float
-- Integer
-- Character
-- Pointer
-- Double
+Primitive Data Structures are integer, real, character, boolean.
 
 &nbsp;
 
-## Non-Primitive Data Structure
+# Non-Primitive Data Structure
 
-These data structures are derived from the primitive data structure. Their declaration depends entirely upon the programming languages.
+The non-primitive data structure is a kind of data structure that can hold multiple values either in a contiguous or random location.
 
-The non-primitive data structure emphasizes the structural grouping of homogenous or heterogeneous data items.
+Non-Primitive Data Structure is divided into two parts.
+1. Linear Data Structures
+2. Non-Linear Data Structures
 
 &nbsp;
 
-&nbsp;
+# Linear Data Structures
 
-## Linear Data Structures
-
-A data structure is said to be linear if it's elements form **a sequence** or **a linear list**.
+A data structure is said to be linear if it's elements are arranged sequentially or linearly.
 
 Every element in the linear data structure is attached to its previous and next adjacent elements.
 
@@ -80,11 +79,24 @@ In Linear DS, Elements are arranged in one dimension.
 
 &nbsp;
 
-&nbsp;
-
 # Non-Linear Data Structure
 
 A data structure is said to be non-linear if it's elements are not arranged in sequence.
 
-
 Elements are arranged in one-many, many-one and many-many dimensions.
+
+&nbsp;
+
+&nbsp;
+
+# Applications of Data Structures
+
+Data structures are used in various fields such as:
+
+- Operating system
+- Graphics
+- Computer Design
+- Blockchain
+- Genetics
+- Image Processing
+- Simulation etc.
