@@ -38,7 +38,7 @@ DSA Topics to prepare
 
 - Sorting - Playlist by [mycodeschool](https://www.youtube.com/watch?v=pkkFqlG0Hds&list=PL2_aWCzGMAwKedT2KfDMB9YA5DgASZb3U&index=2)
 
-* two pointers
+- two pointers
 
 &nbsp;
 

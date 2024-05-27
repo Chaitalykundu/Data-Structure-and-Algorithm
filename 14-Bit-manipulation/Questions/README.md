@@ -1,7 +1,7 @@
 | SL No | Questions                                                                                                                 | Status |
 | ----- | ------------------------------------------------------------------------------------------------------------------------- | ------ |
-| 1     | Check if the ith bit is set or not                                                                                        |
-| 2     | Set the ith bit of a number.                                                                                              |
+| 1     | [Check if the ith bit is set or not](https://www.geeksforgeeks.org/problems/check-whether-k-th-bit-is-set-or-not-1587115620/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article)                                                                                        |
+| 2     | [Set the kth bit of a number](https://www.geeksforgeeks.org/problems/set-kth-bit3724/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article)                                                                                              |
 | 3     | clear the ith bit of a number.                                                                                            |
 | 4     | Remove the last set bit of a number.                                                                                      |
 | 5     | Find whether a number is even or odd                                                                                      |
