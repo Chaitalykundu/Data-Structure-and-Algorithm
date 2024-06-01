@@ -1,8 +1,15 @@
+/*
+Author : Chaitaly Kundu
+Date : 1st June, 2024
+
+Purpose : Revise Pattern
+*/
+
 #include <iostream>
 
 using namespace std;
 
-int halfPyramid(int n)
+void half_pyramid(int n)
 {
     for (int i = 1; i <= n; i++)
     {
@@ -18,7 +25,19 @@ int main()
 {
     int n;
 
+    cout << "Enter no of rows : ";
     cin >> n;
-    halfPyramid(n);
+
+    half_pyramid(n);
+
     return 0;
 }
+
+/*  O/P:
+Enter no of rows : 4
+*
+* *
+* * *
+* * * *
+
+*/

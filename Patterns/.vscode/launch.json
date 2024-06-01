@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/chaitaly_kundu/Desktop/Data-Structure-and-Algorithm/Patterns/Stars/Rectangle/Rectangle-Pattern",
-      "program": "c:/Users/chaitaly_kundu/Desktop/Data-Structure-and-Algorithm/Patterns/Stars/Rectangle/Rectangle-Pattern/build/Debug/outDebug",
+      "cwd": "c:/Users/chaitaly_kundu/Desktop/Data-Structure-and-Algorithm/Patterns/Stars/Rectangle/01-Rectangle-Pattern",
+      "program": "c:/Users/chaitaly_kundu/Desktop/Data-Structure-and-Algorithm/Patterns/Stars/Rectangle/01-Rectangle-Pattern/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
