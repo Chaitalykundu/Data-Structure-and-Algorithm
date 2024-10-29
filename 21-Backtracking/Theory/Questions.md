@@ -32,7 +32,6 @@
 
 1.  Sudoku Solver
 2.  Knapsack Problem
-
 3.  Maze/Path Finding
 
 4.
