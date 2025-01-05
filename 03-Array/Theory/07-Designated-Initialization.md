@@ -1,3 +1,15 @@
+# Overview
+
+- [Overview](#overview)
+- [Designated Initialization?](#designated-initialization)
+- [Advantage of the Designated Initialization?](#advantage-of-the-designated-initialization)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 # Designated Initialization?
 
 If we want to add elements in such way that most of the elements will be 0 ex : a[10] = {1,1,0,0,0,4,0,2,0,2}, then we can add like this

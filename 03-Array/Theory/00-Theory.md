@@ -1,5 +1,21 @@
 # Overview
 
+- [Overview](#overview)
+- [Introduction](#introduction)
+- [Need of Array Data Structures](#need-of-array-data-structures)
+- [Applications of Array](#applications-of-array)
+- [Advantages of Array](#advantages-of-array)
+- [Disadvantages of Array](#disadvantages-of-array)
+- [Real-time Examples of Arrays in Coding Problems-](#real-time-examples-of-arrays-in-coding-problems-)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+# Introduction
+
 An **Array** is a collection of same data type stored at contiguous memory locations.
 
 It allows for efficient access to elements using indices and is widely used in programming for organizing and manipulating data.
@@ -44,7 +60,7 @@ Arrays are used in a wide variety of applications, including:
 
 &nbsp;
 
-# Advantages of Array :
+# Advantages of Array
 
 - **Efficient access to elements**: Arrays provide direct and efficient access to any element in the collection. Accessing an element in an array is an O(1) operation, meaning that the time required to access an element is constant and does not depend on the size of the array.
 
@@ -62,7 +78,7 @@ Arrays are used in a wide variety of applications, including:
 
 &nbsp;
 
-# Disadvantages of Array :
+# Disadvantages of Array
 
 - **Fixed size**: Arrays have a fixed size that is determined at the time of creation. This means that if the size of the array needs to be increased, a new array must be created and the data must be copied from the old array to the new array, which can be time-consuming and memory-intensive.
 

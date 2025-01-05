@@ -1,3 +1,18 @@
+# Overview
+
+- [Overview](#overview)
+- [To check if ith bit of a number is set or not?](#to-check-if-ith-bit-of-a-number-is-set-or-not)
+- [To check if a number is a power of 2?](#to-check-if-a-number-is-a-power-of-2)
+- [Binary Representation of any number -](#binary-representation-of-any-number--)
+- [Swapping two numbers](#swapping-two-numbers)
+- [Multiply any number by ith power of 2](#multiply-any-number-by-ith-power-of-2)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 # To check if ith bit of a number is set or not?
 
 We AND the number with ith power of 2. If the result is also the ith power of 2, then the bit is set (1) otherwise the bit is unset (0).

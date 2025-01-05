@@ -1,3 +1,18 @@
+# Overview
+
+- [Overview](#overview)
+- [Memory representation of Array](#memory-representation-of-array)
+- [Declaration of Array](#declaration-of-array)
+  - [Array declaration by specifying size](#array-declaration-by-specifying-size)
+  - [Array declaration by initializing elements](#array-declaration-by-initializing-elements)
+- [Note](#note)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 # Memory representation of Array
 
 In an array, all the elements are stored in contiguous memory locations. So, if we initialize an array
@@ -14,20 +29,20 @@ Arrays can be declared in various ways in different languages.
 
 In CPP
 
-* This array will store ***integer***,***float*** and ***char*** type element respectively
+- This array will store **_integer_**,**_float_** and **_char_** type element respectively
 
-    ```cpp
-    int arr[5];
-    float arr[20];
-    char arr[10];
-    ```
+  ```cpp
+  int arr[5];
+  float arr[20];
+  char arr[10];
+  ```
 
 &nbsp;
 
 In JavaScript
 
 ```js
-let arr=[]
+let arr = [];
 ```
 
 &nbsp;

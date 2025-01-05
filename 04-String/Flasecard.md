@@ -1,10 +1,46 @@
+# Overview
+
+- [Overview](#overview)
+- [String Operations and Functions](#string-operations-and-functions)
+  - [Concatenation](#concatenation)
+    - [Example](#example)
+  - [Length](#length)
+    - [Example](#example-1)
+  - [Substrings](#substrings)
+    - [Example](#example-2)
+  - [Comparisons](#comparisons)
+    - [Example](#example-3)
+  - [Searching](#searching)
+    - [Example](#example-4)
+  - [Replacing](#replacing)
+    - [Example](#example-5)
+  - [Conversion](#conversion)
+    - [Example](#example-6)
+  - [Case Conversion](#case-conversion)
+    - [Example](#example-7)
+  - [Sorting](#sorting)
+    - [Example](#example-8)
+- [Use Cases of Strings](#use-cases-of-strings)
+  - [Here are some common use cases and examples of how strings are utilized](#here-are-some-common-use-cases-and-examples-of-how-strings-are-utilized)
+    - [String Manipulation](#string-manipulation)
+    - [Palindrome Check](#palindrome-check)
+    - [Anagram Check](#anagram-check)
+    - [String Matching and Searching](#string-matching-and-searching)
+    - [String Parsing](#string-parsing)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 # String Operations and Functions
 
-## Concatenation:
+## Concatenation
 
 Strings can be concatenated using the `+` operator or the `+=` compound assignment operator.
 
-### Example:
+### Example
 
 ```cpp
 string str1 = "Hello";
@@ -16,11 +52,11 @@ string result = str1 + " " + str2;
 
 &nbsp;
 
-## Length:
+## Length
 
 The length of a string can be obtained using the `length()` or `size()` member functions.
 
-### Example:
+### Example
 
 ```cpp
 string str = "Hello, World!";
@@ -31,11 +67,11 @@ int len = str.length();
 
 &nbsp;
 
-## Substrings:
+## Substrings
 
 Substrings can be extracted from a string using the `substr()` member function.
 
-### Example:
+### Example
 
 ```cpp
 string str = "Hello, World!";
@@ -46,11 +82,11 @@ string sub = str.substr(7, 5); (Extracts substring starting from index 7 with le
 
 &nbsp;
 
-## Comparisons:
+## Comparisons
 
 Strings can be compared using the relational operators `(==, !=, <, >, <=, >=)`.
 
-### Example:
+### Example
 
 ```cpp
 string str1 = "Hello";
@@ -62,11 +98,11 @@ bool isEqual = (str1 == str2);
 
 &nbsp;
 
-## Searching:
+## Searching
 
 The `find()` function can be used to search for a specific substring within a string.
 
-### Example:
+### Example
 
 ```cpp
 string str = "Hello, World!";
@@ -77,11 +113,11 @@ size_t found = str.find("World"); (Returns the index where "World" is found)
 
 &nbsp;
 
-## Replacing:
+## Replacing
 
 The `replace()` function allows replacing a portion of the string with another substring.
 
-### Example:
+### Example
 
 ```cpp
 string str = "Hello, World!";
@@ -92,11 +128,11 @@ str.replace(7, 5, "Universe"); (Replaces substring starting from index 7 with "U
 
 &nbsp;
 
-## Conversion:
+## Conversion
 
 C++ provides functions to convert strings to numerical types, such as stoi() (string to integer) and stof() (string to float).
 
-### Example:
+### Example
 
 ```cpp
 string str = "123";
@@ -107,11 +143,11 @@ int num = stoi(str);
 
 &nbsp;
 
-## Case Conversion:
+## Case Conversion
 
 The `tolower()` and `toupper()` functions can be used to convert the case of characters in a string.
 
-### Example:
+### Example
 
 ```cpp
 string str = "Hello, World!";
@@ -122,11 +158,11 @@ transform(str.begin(), str.end(), str.begin(), ::tolower);
 
 &nbsp;
 
-## Sorting:
+## Sorting
 
 Strings can be sorted using the `sort()` function from the `<algorithm>` header.
 
-### Example:
+### Example
 
 ```cpp
 string str = "Hello, World!";
@@ -148,32 +184,32 @@ They offer a wide range of functionalities for manipulating and processing textu
 
 &nbsp;
 
-## Here are some common use cases and examples of how strings are utilized:
+## Here are some common use cases and examples of how strings are utilized
 
-### String Manipulation:
+### String Manipulation
 
 String manipulation involves various operations such as concatenation, substring extraction, character replacements, and case conversions. These operations allow you to modify and transform strings as required by the problem.
 
 &nbsp;
 
-### Palindrome Check:
+### Palindrome Check
 
 A popular problem involving strings is checking whether a given string is a palindrome, meaning it reads the same forwards and backwards. By comparing characters from both ends of the string, you can determine if it is a palindrome or not.
 
 &nbsp;
 
-### Anagram Check:
+### Anagram Check
 
 In an anagram problem, you need to determine if two strings are anagrams of each other, meaning they contain the same characters but in a different order. This typically involves comparing the frequency count of each character in the strings.
 
 &nbsp;
 
-### String Matching and Searching:
+### String Matching and Searching
 
 String matching and searching problems involve finding patterns or specific substrings within a larger string. Techniques like the Knuth-Morris-Pratt (KMP) algorithm or the Boyer-Moore algorithm are commonly used to efficiently solve such problems.
 
 &nbsp;
 
-### String Parsing:
+### String Parsing
 
 String parsing refers to extracting meaningful information from a string that follows a specific format or structure. This is often accomplished using techniques like tokenization or regular expressions.

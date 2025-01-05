@@ -1,3 +1,20 @@
+# Overview
+
+- [Overview](#overview)
+- [Is the array always of a fixed size?](#is-the-array-always-of-a-fixed-size)
+- [Why do we use array](#why-do-we-use-array)
+- [What is the difference btw Array \& Pointer](#what-is-the-difference-btw-array--pointer)
+- [What is the difference btw Array \& Linked List](#what-is-the-difference-btw-array--linked-list)
+- [What if no of elements are lesser than the length specified? Ex: a\[10\] = {1,2,3,4,5,6}](#what-if-no-of-elements-are-lesser-than-the-length-specified-ex-a10--123456)
+- [What is Designated Initialization?](#what-is-designated-initialization)
+- [What is the advantage of the Designated Initialization?](#what-is-the-advantage-of-the-designated-initialization)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 # Is the array always of a fixed size?
 
 The array has a fixed size meaning once the size is given to it, it cannot be changed i.e. you can’t shrink it nor can you expand it. The reason was that for expanding if we change the size we can’t be sure ( it’s not possible every time) that we get the next memory location to us for free. The shrinking will not work because the array, when declared, gets memory statically allocated, and thus compiler is the only one that can destroy it.
@@ -21,7 +38,6 @@ We can use normal variable when we have small number of objects. But if we want 
 &nbsp;
 
 # What is the difference btw Array & Linked List
-
 
 &nbsp;
 
