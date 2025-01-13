@@ -63,5 +63,6 @@
     "regex": "cpp",
     "complex": "cpp",
     "cmath": "cpp"
-  }
+  },
+  "C_Cpp.errorSquiggles": "enabled"
 }

@@ -24,6 +24,8 @@ Two values represent it as follows -
 
 Bits represent the **logical state** of any instruction.
 
+&nbsp;
+
 The series of bits have a base which is 2. Thus if we say if we have a series of binary digits, it is read from left to right, and the power of 2 increases.
 
 &nbsp;
@@ -42,22 +44,42 @@ It is a speedy and primitive method as it directly works at the machine end.
 
 &nbsp;
 
-# Common Bit Manipulation Operations
+# Why Learn Bit Manipulation?
 
-- <u>**Bitwise AND (&)**:</u> Performs a logical AND operation on each pair of corresponding bits. The result is 1 only if both bits are 1, otherwise, it is 0.
+- ***<u>Efficiency</u>***: Bit manipulation operations are extremely fast, as they directly interact with the bits of numbers at the hardware level.
 
-- <u>**Bitwise OR (|)**:</u> Performs a logical OR operation on each pair of corresponding bits. The result is 1 if at least one bit is 1, otherwise, it is 0.
+- ***<u>Compactness</u>***: Useful for memory optimization (e.g., storing multiple values or states in a single variable).
 
-- <u>**Bitwise XOR (^)**:</u> Performs a logical XOR (exclusive OR) operation on each pair of corresponding bits. The result is 1 if the bits are different, otherwise, it is 0.
-
-- <u>**Bitwise NOT (~)**:</u> Flips the bits of the operand, changing 0 to 1 and 1 to 0.
-
-- <u>**Left Shift (<<)**:</u> Shifts the bits of the operand to the left by a specified number of positions. This is equivalent to multiplying the number by 2 raised to the power of the shift count.
-
-- <u>**Right Shift (>>)**:</u> Shifts the bits of the operand to the right by a specified number of positions. This is equivalent to dividing the number by 2 raised to the power of the shift count.
+- ***<u>Problem-Solving</u>***: Many coding challenges and interview questions involve bit manipulation techniques.
 
 &nbsp;
+
 &nbsp;
+
+# Use Cases
+
+- Checking if a number is even or odd.
+- Swapping values without a temporary variable.
+- Finding subsets efficiently.
+- Checking or setting specific bits.
+- Check unpaired value
+
 &nbsp;
+
 &nbsp;
+
+# Binary Representation
+
+- A binary number consists of only two digits: **0 and 1**.
+
+- Each digit in binary is called a **bit**
+
+
+- In JavaScript, numbers are stored as 64-bit floating-point numbers, but for bitwise operations, they are treated as 32-bit signed integers.
+
 &nbsp;
+
+&nbsp;
+
+&nbsp;
+
