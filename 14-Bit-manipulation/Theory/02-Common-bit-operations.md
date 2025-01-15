@@ -27,12 +27,12 @@
 
 # Basic Bit Operations
 
-|                    |                                                    |
-| ------------------ | -------------------------------------------------- |
-| **_Set a bit_**    | Turn a specific bit to 1.                          |
-| **_Clear a bit_**  | Turn a specific bit to 0.                          |
-| **_Toggle a bit_** | Flip a specific bit (change 0 to 1 or vice versa). |
-| **_Check a bit_**  | Determine if a specific bit is 1 or 0.             |
-|                    |                                                    |
+|                                                           |                                                    |
+| --------------------------------------------------------- | -------------------------------------------------- |
+| **_Set a bit_**                                           | Turn a specific bit to 1.                          |
+| **_Clear a bit_**                                         | Turn a specific bit to 0.                          |
+| **_Toggle a bit_**                                        | Flip a specific bit (change 0 to 1 or vice versa). |
+| **_Check a bit_**                                         | Determine if a specific bit is 1 or 0.             |
+| **_Finding the Only Non-Repeating Element in an Array _** | XOR of each and every element                      |
 
 &nbsp;

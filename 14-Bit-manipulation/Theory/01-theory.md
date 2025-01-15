@@ -62,7 +62,9 @@ It is a speedy and primitive method as it directly works at the machine end.
 - Swapping values without a temporary variable.
 - Finding subsets efficiently.
 - Checking or setting specific bits.
-- Check unpaired value
+- Finding the Only Non-Repeating Element in an Array
+- Checking if a Number is a Power of Two
+- Reversing Bits in a Number
 
 &nbsp;
 

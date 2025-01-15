@@ -1,8 +1,8 @@
 # Tuttorial Plan
 
-| Weekly Plan                                     | Daily Plan                                             | Topics                                                                                              |
-| ----------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
-| Week 1: Basics and Fundamentals                 | Day 1: Introduction to Bit Manipulation                | Understand what bit manipulation is and why it's important.                                         |
+| Weekly Plan                                     | Daily Plan                                             | Topics                                                                                              | Status |
+| ----------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------------------------------------------- | ------ |
+| Week 1: Basics and Fundamentals                 | Day 1: Introduction to Bit Manipulation                | Understand what bit manipulation is and why it's important.                                         | Done   |
 |                                                 |                                                        | Learn binary number representation and how bits are used to represent numbers.                      |
 |                                                 |                                                        | Learn how JavaScript represents numbers in binary (32-bit signed integer format).                   |
 |                                                 | Day 2: Bitwise AND (&)                                 | Understand the & operator and how it works.                                                         |

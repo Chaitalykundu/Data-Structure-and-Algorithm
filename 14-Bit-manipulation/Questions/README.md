@@ -5,7 +5,7 @@
 | 3     | clear the ith bit of a number.                                                                                                                                                                                   |
 | 4     | Remove the last set bit of a number.                                                                                                                                                                             |
 | 5     | [Find whether a number is even or odd](https://www.geeksforgeeks.org/problems/odd-or-even3618/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)                                          | Done   |
-| 6     | [Check if the number is a power of 2]                                                                                                                                                                             |
+| 6     | [Check if the number is a power of 2]                                                                                                                                                                            |
 | 7     | Check if a number is a power of 4?                                                                                                                                                                               |
 | 8     | Check if a number is a power of 8?                                                                                                                                                                               |
 | 9     | Check if a number is a power of 16?                                                                                                                                                                              |
@@ -17,7 +17,7 @@
 | 15    | Invert Alphabet’s Case                                                                                                                                                                                           |
 | 16    | Find Letter Position in alphabet                                                                                                                                                                                 |
 | 17    | Given a set of numbers where all elements occur an even number of times except one number, find the odd occurring number.                                                                                        |
-| 18    | [Swap two numbers using Bit manipulation](https://www.geeksforgeeks.org/problems/swap-two-numbers3844/1)                                                                                                                                                          |
+| 18    | [Swap two numbers using Bit manipulation](https://www.geeksforgeeks.org/problems/swap-two-numbers3844/1)                                                                                                         |
 | 19    | Calculate XOR from 1 to n                                                                                                                                                                                        |
 | 20    | Find XOR of numbers from the range [L,R]                                                                                                                                                                         |
 | 21    | Check whether the number is even or not                                                                                                                                                                          |
@@ -42,3 +42,10 @@
 | 40    | Check if a String Contains all binary codes of size k                                                                                                                                                            |
 | 41    | Find the Duplicate Number                                                                                                                                                                                        |
 |       |
+
+# Practice Problems
+
+- Find if the 3rd bit (from the right) is set in a number.
+- Toggle the 2nd bit of a number.
+- Count the number of set bits in a given number.
+- Write a function to reverse the bits of a number.
