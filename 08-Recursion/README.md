@@ -8,5 +8,5 @@
 
 | Topics              | Status |
 | ------------------- | ------ |
-| Basics of recursion |
-| Recursion problems  |
+| Basics of recursion |        |
+| Recursion problems  |        |
