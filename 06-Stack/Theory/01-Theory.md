@@ -47,8 +47,8 @@ It is commonly used in **memory management**, **expression evaluation**, and **b
 - **Dynamic Size**: Can be implemented using an array (fixed size) or a linked list (dynamic size).
 - **Efficient Operations**: All operations (**push, pop, peek**) take constant time O(1).
 - **Memory Usage**:
-    - In an **array-based stack**, memory is allocated beforehand.
-    - In a **linked list-based stack**, memory is dynamically allocated.
+  - In an **array-based stack**, memory is allocated beforehand.
+  - In a **linked list-based stack**, memory is dynamically allocated.
 
 &nbsp;
 
@@ -106,16 +106,6 @@ A stack can be implemented in two ways:
 | Used in Web Browsers        | Maintains back & forward history                |
 | Reversing Data              | Used in string reversal and palindrome checking |
 |                             |                                                 |
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 &nbsp;
 

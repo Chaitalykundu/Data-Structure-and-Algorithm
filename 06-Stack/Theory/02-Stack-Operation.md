@@ -4,18 +4,27 @@
 - [Stack Operations](#stack-operations)
 - [Push Operation (Insertion)](#push-operation-insertion)
   - [Steps for Push Operation](#steps-for-push-operation)
-  - [Algorithm for Push Operation](#algorithm-for-push-operation)
+  - [Algorithm](#algorithm)
   - [Example](#example)
   - [Implementation](#implementation)
 - [Pop Operation (Deletion)](#pop-operation-deletion)
   - [Steps for Pop Operation](#steps-for-pop-operation)
+  - [Algorithm](#algorithm-1)
   - [Example](#example-1)
   - [Implementation](#implementation-1)
 - [Peek Operation (Access Top Element)](#peek-operation-access-top-element)
   - [Steps for Peek Operation](#steps-for-peek-operation)
-  - [Algorithm for Peek Operation](#algorithm-for-peek-operation)
-  - [Example (Peek from Stack)](#example-peek-from-stack)
+  - [Algorithm](#algorithm-2)
+  - [Example](#example-2)
   - [Implementation](#implementation-2)
+- [isEmpty Operation (Check if Stack is Empty)](#isempty-operation-check-if-stack-is-empty)
+  - [Steps for isEmpty Operation](#steps-for-isempty-operation)
+  - [Algorithm](#algorithm-3)
+  - [Example](#example-3)
+  - [Implementation](#implementation-3)
+- [isFull Operation](#isfull-operation)
+  - [Steps for isFull Operation](#steps-for-isfull-operation)
+- [Additional Stack Operations](#additional-stack-operations)
 - [Time Complexity of Stack Operations](#time-complexity-of-stack-operations)
 
 &nbsp;
@@ -32,6 +41,7 @@ Stack supports four primary operations:
 - Pop (Deletion)
 - Peek (Top Element Access)
 - isEmpty (Check if Stack is Empty)
+- isFull (Check if the stack is full - in case of a fixed-size stack)
 
 &nbsp;
 
@@ -39,7 +49,7 @@ Stack supports four primary operations:
 
 # Push Operation (Insertion)
 
-The Push operation adds an element to the top of the stack.
+The **Push** operation adds an element to the top of the stack.
 
 &nbsp;
 
@@ -53,7 +63,7 @@ The Push operation adds an element to the top of the stack.
 
 &nbsp;
 
-## Algorithm for Push Operation
+## Algorithm
 
 ```mathematica
 Push(Stack, Item):
@@ -93,7 +103,7 @@ Push(30) → Stack: [10, 20, 30] (Top = 30)
 
 # Pop Operation (Deletion)
 
-The Pop operation removes the top element from the stack.
+The **Pop** operation removes the top element from the stack.
 
 &nbsp;
 
@@ -107,7 +117,31 @@ The Pop operation removes the top element from the stack.
 
 &nbsp;
 
+## Algorithm
+
+```mathematica
+Pop(Stack):
+  if (Top == -1) then
+    Print "Stack Underflow" (Stack is empty)
+  else
+    Item = Stack[Top]
+    Top = Top - 1
+    Return Item
+```
+
+&nbsp;
+
+&nbsp;
+
 ## Example
+
+```mathematica
+Before Pop:
+Stack: [10, 20, 30]  (Top = 30)
+
+Pop() → Removes 30 → Stack: [10, 20]  (Top = 20)
+Pop() → Removes 20 → Stack: [10]  (Top = 10)
+```
 
 &nbsp;
 
@@ -123,7 +157,7 @@ The Pop operation removes the top element from the stack.
 
 # Peek Operation (Access Top Element)
 
-The Peek operation returns the top element without removing it.
+The **Peek** operation returns the top element without removing it.
 
 &nbsp;
 
@@ -136,7 +170,7 @@ The Peek operation returns the top element without removing it.
 
 &nbsp;
 
-## Algorithm for Peek Operation
+## Algorithm
 
 ```mathematica
 Peek(Stack):
@@ -150,7 +184,7 @@ Peek(Stack):
 
 &nbsp;
 
-## Example (Peek from Stack)
+## Example
 
 ```mathematica
 Stack: [10, 20, 30] (Top = 30)
@@ -169,13 +203,82 @@ Peek() → Returns 30
 
 &nbsp;
 
+# isEmpty Operation (Check if Stack is Empty)
+
+The **isEmpty** operation checks whether the stack is empty or not.
+
 &nbsp;
+
+## Steps for isEmpty Operation
+
+1. If top == -1, return True (Stack is empty).
+2. Otherwise, return False (Stack is not empty).
+
+&nbsp;
+
+&nbsp;
+
+## Algorithm
+
+```mathematica
+isEmpty(Stack):
+  if (Top == -1) then
+    Return True
+  else
+    Return False
+```
+
+&nbsp;
+
+&nbsp;
+
+## Example
+
+```mathematica
+Stack: [10, 20, 30]  → isEmpty() = False
+Stack: [] (Empty)    → isEmpty() = True
+```
+
+&nbsp;
+
+&nbsp;
+
+## Implementation
 
 &nbsp;
 
 &nbsp;
 
 &nbsp;
+
+# isFull Operation
+
+The **isFull** Operation checks if the stack is full (for fixed-size stacks).
+
+&nbsp;
+
+&nbsp;
+
+## Steps for isFull Operation
+
+1. If (Top == MaxSize - 1), return True.
+2. Else, return False.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+# Additional Stack Operations
+
+Apart from the basic operations, stacks also support advanced operations:
+
+| Operation | Description                                          |
+| --------- | ---------------------------------------------------- |
+| isFull()  | Checks if the stack is full (for fixed-size stacks). |
+| Size()    | Returns the number of elements in the stack.         |
+| Clear()   | Removes all elements from the stack.                 |
 
 &nbsp;
 
@@ -190,30 +293,6 @@ Peek() → Returns 30
 | Peek()    | O(1)            |
 | isEmpty() | O(1)            |
 |           |                 |
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 &nbsp;
 
