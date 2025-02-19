@@ -2,11 +2,11 @@
 
 | Questions                       | Status |
 | ------------------------------- | ------ |
-| Print 1 to n without using loop |
+| Print 1 to n without using loop |        |
 
 # important topics
 
 | Topics              | Status |
 | ------------------- | ------ |
-| Basics of recursion |
-| Recursion problems  |
+| Basics of recursion |        |
+| Recursion problems  |        |
