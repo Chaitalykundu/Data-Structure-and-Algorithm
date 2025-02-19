@@ -1,3 +1,18 @@
+# Overview
+
+- [Overview](#overview)
+- [Flowchart](#flowchart)
+- [Pseudocode](#pseudocode)
+- [Variable](#variable)
+- [Datatypes](#datatypes)
+- [Type Casting](#type-casting)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 # Flowchart
 
 Flowchart is the diagram of a solution.
