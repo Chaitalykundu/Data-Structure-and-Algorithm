@@ -1,6 +1,16 @@
-[Must follow](https://anubhavsinha98.medium.com/resources-to-master-data-structures-and-algorithms-24450dc6d52b)
+# Study Material
 
-DSA Topics to prepare
+1. [Must follow](https://anubhavsinha98.medium.com/resources-to-master-data-structures-and-algorithms-24450dc6d52b)
+
+2. DSA 360 questions: https://www.geeksforgeeks.org/batch/skill-up-dsa?tab=Chapters
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+# DSA Topics to prepare
 
 | SL No | Topic                | Imp links                                                                                                                                                                                                                                                                                          |     | Status | Rev 1 | Rev2 | Rev3 | Rev4 | Rev5 |
 | ----- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | ------ | ----- | ---- | ---- | ---- | ---- |
